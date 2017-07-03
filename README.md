@@ -30,3 +30,19 @@ In the main directory run
 ```
 go test ./...
 ```
+
+# Usage
+
+For help run
+
+```
+gocrawl -h
+```
+
+To start crawling a website just run
+
+```
+gocrawl -s http://tomblomfield.com
+```
+
+This starts crawling the website concurrently so it will generate quite a bit of traffic.
